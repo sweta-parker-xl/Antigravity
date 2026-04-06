@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Antigravity Figma</string>
+    <string name="sign_in_header_image">Fresh groceries</string>
+    <string name="sign_in_title">Get your groceries\nwith nectar</string>
+    <string name="sign_in_phone_hint">Phone number</string>
+    <string name="sign_in_social_prompt">Or connect with social media</string>
+    <string name="sign_in_google">Continue with Google</string>
+    <string name="sign_in_facebook">Continue with Facebook</string>
 </resources>

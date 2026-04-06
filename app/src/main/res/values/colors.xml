@@ -17,4 +17,6 @@
     <!-- Other -->
     <color name="colorDivider">#E2E2E2</color>
     <color name="colorError">#F3603F</color>
+    <color name="colorGoogle">#5383EC</color>
+    <color name="colorFacebook">#4A66AC</color>
 </resources>
