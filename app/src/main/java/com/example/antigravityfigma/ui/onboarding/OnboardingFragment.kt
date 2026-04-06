@@ -1,6 +1,7 @@
 package com.example.antigravityfigma.ui.onboarding
 
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 import com.example.antigravityfigma.core.ui.BaseFragment
 import com.example.antigravityfigma.databinding.FragmentOnboardingBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -12,7 +13,8 @@ class OnboardingFragment : BaseFragment<FragmentOnboardingBinding>(FragmentOnboa
 
     override fun setupViews() {
         binding.btnGetStarted.setOnClickListener {
-            // Future navigation to Login or Home Screen
+            val action = OnboardingFragmentDirections.actionOnboardingFragmentToSignInFragment()
+            findNavController().navigate(action)
         }
     }
 

@@ -21,5 +21,15 @@
         android:id="@+id/onboardingFragment"
         android:name="com.example.antigravityfigma.ui.onboarding.OnboardingFragment"
         android:label="Onboarding"
-        tools:layout="@layout/fragment_onboarding" />
+        tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/action_onboardingFragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.antigravityfigma.ui.signin.SignInFragment"
+        android:label="Sign In"
+        tools:layout="@layout/fragment_sign_in" />
 </navigation>
